@@ -1,0 +1,24 @@
+.pagination {
+  margin: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.page-item {
+  border-color: $colour-primary;
+  border-radius: 2px;
+}
+
+.page-item.active .page-link {
+  background-color: $colour-primary;
+  border-color: $colour-primary;
+}
+
+.page-link {
+  color: $colour-dark;
+  border-color: $colour-primary;
+}
+
+span.sr-only {
+  display: none;
+}

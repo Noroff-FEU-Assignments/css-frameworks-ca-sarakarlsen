@@ -1,0 +1,23 @@
+.contact.row {
+  padding: 10px;
+}
+
+.form-check-input {
+  background-color: $colour-primary;
+  border-color: $colour-primary;
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.form-check-input[type="checkbox"] {
+  border-radius: 0;
+}
+
+label.form-check-label {
+  padding: 10px;
+}
+
+#Message.form-control {
+  height: 120px;
+  margin-bottom: 20px;
+}

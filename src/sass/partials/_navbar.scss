@@ -1,0 +1,52 @@
+.navbar-light .navbar-toggler,
+.navbar-toggler:hover .navbar:active {
+  border-color: transparent;
+}
+
+.navbar-brand,
+.navbar-light .navbar-toggler {
+  padding: 20px 40px 20px 40px;
+}
+
+.navbar-nav .nav-link {
+  padding: 10px 60px 10px 60px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-light .navbar-brand {
+  color: $colour-primary;
+}
+
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0px 40px 0px 40px;
+}
+
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+
+.mb-3 {
+  margin-bottom: 0 !important;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    padding: 20px 40px 20px 70px;
+  }
+  .form-inline {
+    margin-top: 0;
+    background-color: $colour-light;
+  }
+
+  .navbar-brand {
+    padding: 0px;
+  }
+}

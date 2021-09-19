@@ -1,0 +1,27 @@
+.form-control {
+  border: 1px solid #fff;
+}
+
+.input-group .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.input-group-text {
+  color: white;
+  background-color: #c7c7c7;
+  border: 1px solid #c7c7c7;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.btn-dark {
+  background-color: $colour-dark;
+  border-color: $colour-dark;
+  border: none;
+}
+
+.btn {
+  width: 100%;
+  color: #fff;
+}

@@ -1,0 +1,39 @@
+.tab-content {
+  background: white;
+  padding: 1.5em;
+  min-height: 150px;
+  border-radius: 12px 12px 12px 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+  margin-top: -7px;
+}
+
+.nav .nav-tabs {
+  border-radius: 12px 12px 12px 12px;
+}
+
+.nav-tabs,
+.nav-link:hover,
+.nav-link,
+.nav-link:focus,
+.nav-link.active {
+  border: none;
+}
+
+.nav-link {
+  color: $colour-primary;
+}
+
+.nav-link.active {
+  color: white;
+  background-color: white;
+}
+
+.nav {
+  display: block;
+}
+
+@media (min-width: 576px) {
+  .nav {
+    display: flex;
+  }
+}
