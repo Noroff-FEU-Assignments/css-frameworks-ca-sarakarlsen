@@ -1,8 +1,10 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
-import ContentTabs from "../layout/ContentTabs";
 import ImageTab1 from "../images/tabImages/tab-1.jpg";
+import ImageTab2 from "../images/tabImages/tab-2.jpg";
+import ImageTab3 from "../images/tabImages/tab-3.jpg";
+import Image from "react-bootstrap/Image";
 
 function Accordions() {
   return (
@@ -13,7 +15,7 @@ function Accordions() {
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="0">
           <Card.Body>
-            <img src={ImageTab1}></img>
+            <Image src={ImageTab1} fluid />
           </Card.Body>
         </Accordion.Collapse>
       </Card>
@@ -22,7 +24,9 @@ function Accordions() {
           Second
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="1">
-          <Card.Body>Hello</Card.Body>
+          <Card.Body>
+            <Image src={ImageTab2} fluid />
+          </Card.Body>
         </Accordion.Collapse>
       </Card>
       <Card>
@@ -30,7 +34,9 @@ function Accordions() {
           Third
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="2">
-          <Card.Body></Card.Body>
+          <Card.Body>
+            <Image src={ImageTab3} fluid />
+          </Card.Body>
         </Accordion.Collapse>
       </Card>
     </Accordion>

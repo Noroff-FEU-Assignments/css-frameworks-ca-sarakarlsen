@@ -33,7 +33,7 @@ function CardContent() {
             <Paragraph content="Nunc malesuada eget est fringilla dapibus." />
           </Card.Body>
           <Card.Footer>
-            <Button>View</Button>
+            <Button>MORE</Button>
           </Card.Footer>
         </Card>
         <Card>
@@ -43,7 +43,7 @@ function CardContent() {
             <Paragraph content="Nunc malesuada eget est fringilla dapibus." />
           </Card.Body>
           <Card.Footer>
-            <Button>View</Button>
+            <Button>MORE</Button>
           </Card.Footer>
         </Card>
         <Card>
@@ -53,7 +53,7 @@ function CardContent() {
             <Paragraph content="Nunc malesuada eget est fringilla dapibus." />
           </Card.Body>
           <Card.Footer>
-            <Button>View</Button>
+            <Button>MORE</Button>
           </Card.Footer>
         </Card>
       </CardGroup>
@@ -65,7 +65,7 @@ function CardContent() {
             <Paragraph content="Nunc malesuada eget est fringilla dapibus." />
           </Card.Body>
           <Card.Footer>
-            <Button>View</Button>
+            <Button>MORE</Button>
           </Card.Footer>
         </Card>
         <Card>
@@ -75,7 +75,7 @@ function CardContent() {
             <Paragraph content="Nunc malesuada eget est fringilla dapibus." />
           </Card.Body>
           <Card.Footer>
-            <Button>View</Button>
+            <Button>MORE</Button>
           </Card.Footer>
         </Card>
         <Card>
@@ -85,7 +85,7 @@ function CardContent() {
             <Paragraph content="Nunc malesuada eget est fringilla dapibus." />
           </Card.Body>
           <Card.Footer>
-            <Button>View</Button>
+            <Button>MORE</Button>
           </Card.Footer>
         </Card>
         <Card>
@@ -95,7 +95,7 @@ function CardContent() {
             <Paragraph content="Nunc malesuada eget est fringilla dapibus." />
           </Card.Body>
           <Card.Footer>
-            <Button>View</Button>
+            <Button>MORE</Button>
           </Card.Footer>
         </Card>
       </CardGroup>

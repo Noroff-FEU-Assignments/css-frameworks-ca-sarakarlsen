@@ -17,6 +17,10 @@
   margin: 20px;
 }
 
+.card-header {
+  color: $colour-primary;
+}
+
 @media (min-width: 576px) {
   .card-group > .card:not(:first-child) {
     border-top-left-radius: 5px;
